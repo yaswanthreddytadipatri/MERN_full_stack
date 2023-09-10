@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS - Task4</title>
+</head>
+<style>
+    #sidebar a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #sidebar a:hover {
+    left: 0;
+  }
+  
+  #Home {
+    top: 20px;
+    background-color: rgb(10, 173, 108);
+  }
+  
+  #Java {
+    top: 80px;
+    background-color: rgb(37, 151, 239);
+  }
+  
+  #HTML {
+    top: 140px;
+    background-color: rgb(244, 64, 44);
+  }
+  
+  #CSS {
+    top: 200px;
+    background-color: rgb(81, 81, 81);
+  }
+</style>
+<body>
+    <div id="sidebar">
+        <a id="Home" href="https://anandmisra.github.io/ethnus-internship/">Home</a>
+        <a id="Java" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>
+        <a id="HTML" href="https://en.wikipedia.org/wiki/HTML">HTML</a>
+        <a id="CSS" href="https://en.wikipedia.org/wiki/CSS">CSS</a>
+    </div>
+    <h2 style="margin-left:100px;">Hoverable Sidenav Buttons</h2>
+    <p style="margin-left:100px;">Hover over the buttons in the left side navigation to open them.</p>
+</body>
+</html>

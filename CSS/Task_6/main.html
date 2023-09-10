@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS - Task6</title>
+</head>
+<style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 25%;
+}
+.profileimg {
+    text-align: center;
+}
+img.ppic {
+    width: 38%;
+    border-radius: 50%;
+}
+
+input#f1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+label#l1{
+    font-weight: bold;
+}
+input#btn1 {
+    font-weight: 600;
+    background-color: #08ba58;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+input#btn2 {
+    font-weight: 600;
+    color: white;
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+}
+input#btn1:hover, input#btn2:hover {
+    background-color: black;
+    color: white;
+}
+.btm {
+    padding: 16px;
+}
+#nbtm {
+    padding: 16px;
+    border-top: 1px solid rgb(168, 168, 168);
+}
+a.frgt{
+    color: black;
+}
+span.frgt {
+    float: right;
+    padding-top: 10px;
+}
+</style>
+<body>
+    <form>
+        <div class="profileimg">
+            <img class="ppic" src="https://i.pinimg.com/564x/55/22/15/5522155776f935b968ee033b378c7dce.jpg">
+        </div>
+      
+        <div class="btm">
+            <label id="l1" for="usr">Username</label>
+            <input id="f1" type="text" name="usr" placeholder="Enter Username">
+            <p></p>
+            <label id="l1" for="pwd">Password</label>
+            <input id="f1" type="password" name="pwd" placeholder="Enter Password">
+            <p></p>
+            <input id="btn1" type="submit" value="Login"/>
+            <p></p>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </div>
+      
+        <div class="btm" id="nbtm">
+            <input id="btn2" type="submit" value="Cancel"/>
+            <span class="frgt">Forgot <a class="frgt" href="#">password?</a></span>
+        </div>
+    </form>
+</body>
+</html>
